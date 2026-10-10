@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #111;
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+.game {
+    width: 100%;
+    max-width: 500px;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.selection {
+    background: #222;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+}
+
+.selection h2 {
+    margin-bottom: 15px;
+}
+
+.selection label {
+    display: block;
+
+    margin: 10px;
+}
+
+select {
+    margin-left: 8px;
+
+    padding: 8px;
+
+    border-radius: 8px;
+
+    border: none;
+}
+
+button {
+    cursor: pointer;
+
+    border: none;
+
+    border-radius: 8px;
+}
+
+#startGame {
+    margin-top: 10px;
+
+    padding: 10px 20px;
+
+    background: #fff;
+    color: #111;
+
+    font-weight: bold;
+}
+
+.scoreboard {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+.player {
+    background: #222;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    min-width: 180px;
+}
+
+.player h2 {
+    font-size: 16px;
+
+    margin-bottom: 8px;
+}
+
+.player span {
+    font-size: 32px;
+
+    font-weight: bold;
+}
+
+#turn {
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.board {
+    width: 330px;
+    height: 330px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 8px;
+}
+
+.cell {
+    background: #222;
+
+    color: white;
+
+    font-size: 55px;
+
+    font-weight: bold;
+}
+
+.cell:hover {
+    background: #333;
+}
+
+.buttons {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 15px;
+
+    background: #222;
+
+    color: white;
+}
+
+.buttons button:hover {
+    background: #333;
+}
